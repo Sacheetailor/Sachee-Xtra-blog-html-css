@@ -1,5 +1,5 @@
 :root{
-    --theme-aqua-300: #0ba3b1;
+    --theme-aqua-300: #1ebdcb;
     --theme-aqua-600: #078490;
     --theme-white:#fff;
 }
@@ -15,7 +15,8 @@ html,body{
 }
 
 .main{
-    width: calc(100%-300px);
+    width: calc(100% - 300px);
+    margin-left: auto;
 }
 .d-flex{
     display: flex;
@@ -36,6 +37,10 @@ html,body{
 }
 
 /* tags */
+
+img{
+    
+}
 
 ul li{
     list-style: none;
@@ -63,7 +68,7 @@ a{
 
 .aside .logo{
     text-align: center;
-    padding: 1.5rem;
+    padding-right:3rem;
     font-style: italic;
 }
 
@@ -87,7 +92,12 @@ a{
 }
 .aside .logo nav ul li a{
     color: var(--theme-white);
-    padding: 1rem;
+    padding: .5rem;
+}
+nav ul li:first-child{
+    background-color: var(--theme-white);
+    color: var(--theme-aqua-600);
+    padding: ;
 }
 
 .aside .logo nav ul li i{
@@ -120,9 +130,13 @@ a{
 /* aside section end */
 
 /* main section start */
-.main .justify-content{
+.justify-content{
+    
     justify-content: flex-end;
-    width: 100%;
+
+}
+.justify-content-between{
+    justify-content: space-between;
 }
 .search input{
     width: 60%;
@@ -145,12 +159,96 @@ a{
 }
 
 img{
-    width: 50%;
+    width: 100%;
     display: block;
 }
 
-.col-6 .card{
+.col-6{
+    width: 50%;
     padding: 1.5rem;
-    margin: 1.5rem;
+}
+
+h3{
+    color: var(--theme-aqua-600);
+    padding: 1rem;
+}
+
+.box-5{
+    margin: 3.5rem;
+}
+.hr1{
+    margin: 2.5rem;
+    border: 3px solid var(--theme-aqua-600);
+    
+}
+.hr2{
+    margin: 1rem 0;
+    border: 1px solid #aeaaaa;
+}
+h2{
+    color: var(--theme-aqua-600);
+    padding: 1rem;
+}
+span{
+    padding: 1rem;
+    color: #aeaaaa;
+    
+}
+
+.footer{
+    padding: 5rem;
+    
+}
+
+.previous{
+    color: #4f4e4e;
+    background-color: #d0cbcb;
+    padding: 1rem;
+}
+
+.next{
+    background-color: var(--theme-aqua-300);
+    color: #fff;
+    margin: 0 1.5rem;
+}
+
+.page{
+    padding: 5rem 0;    
+}
+ 
+.btn{
+    margin: 0 .5rem;
+}
+
+.btn1{
+    color: #fff;
+    background-color: var(--theme-aqua-300);
+    margin: 0 .5rem;
+}
+
+.btn2{
+    background-color: #d0cbcb;
+    color: #4f4e4e;
+    margin: 0 .5rem;
+}
+
+.btn3{
+    background-color: #d0cbcb;
+    color: #4f4e4e;
+    margin: 0 .5rem;
+}
+
+.btn4{
+    background-color: #d0cbcb;
+    color: #4f4e4e;
+    margin: 0 .5rem;
+}
+
+.hr4{
+    color: #d0cbcb;
+}
+.TemplateMo{
+    color: var(--theme-aqua-300);
+
 }
 /* main section end */
